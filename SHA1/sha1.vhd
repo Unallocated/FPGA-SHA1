@@ -5,8 +5,6 @@ use IEEE.NUMERIC_STD.ALL;
 entity sha1 is
     Port ( clk : in  STD_LOGIC;
            rst : in  STD_LOGIC;
---           serial_tx : out  STD_LOGIC;
---           serial_rx : in  STD_LOGIC;
            leds : out  STD_LOGIC_VECTOR (7 downto 0));
 end sha1;
 
@@ -158,6 +156,7 @@ begin
 				when cleanup =>
 					-- Set the final variable that is the 160-bit hash
 					final <= (h0 + a) & (h1 + b) & (h2 + c) & (h3 + d) & (h4 + e);
+					leds <= std_logic_vector(final(7 downto 0));
 					state <= done;
 				when others =>
 					-- Catch all (includes done)
