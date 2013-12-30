@@ -1,0 +1,23 @@
+Running: /opt/Xilinx/14.6/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "secureip" -o "/home/main/git/FPGA-SHA1/SHA1/sha1_tb_isim_beh.exe" -prj "/home/main/git/FPGA-SHA1/SHA1/sha1_tb_beh.prj" "work.sha1_tb" 
+ISim P.68d (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/main/git/FPGA-SHA1/SHA1/sha1.vhd" into library work
+Parsing VHDL file "/home/main/git/FPGA-SHA1/SHA1/sha1_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96484 KB
+Fuse CPU Usage: 1060 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity sha1 [sha1_default]
+Compiling architecture behavior of entity sha1_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 VHDL Units
+Built simulation executable /home/main/git/FPGA-SHA1/SHA1/sha1_tb_isim_beh.exe
+Fuse Memory Usage: 1192640 KB
+Fuse CPU Usage: 1170 ms
+GCC CPU Usage: 180 ms

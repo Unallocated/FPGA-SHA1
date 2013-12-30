@@ -1,0 +1,2 @@
+vhdl work "sha1.vhd"
+vhdl work "sha1_tb.vhd"
