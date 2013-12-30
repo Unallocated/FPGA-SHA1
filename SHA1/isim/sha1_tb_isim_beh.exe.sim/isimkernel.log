@@ -2,9 +2,9 @@ Command line:
    sha1_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  48196
+     -socket  57611
 
-Sun Dec 29 21:47:24 2013
+Sun Dec 29 22:00:55 2013
 
 
- Elaboration Time: 0.02 sec
+ Elaboration Time: 0.01 sec
